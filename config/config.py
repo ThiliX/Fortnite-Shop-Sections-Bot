@@ -17,10 +17,10 @@ Your app's permissions MUST have Read + Write or else it will not post!!
 class twitter:
     twitter = True #NOTE: This is either True or False. True means it will post to twitter!
 
-    consumerKey = "A3ubEPh9ZtyJMDW8Wtf81pkOp"
-    consumerSecretKey = "QtguaSzQ3QDsIQioQDBz7z8dZRHwkG8gZ1JYldjQg0O0oxeLwY"
-    accessToken = "1349298927774748677-FG6kTBcX5skjD5HfJiWUSf7GA64TvW"
-    accessTokenSecret = "SV4cWJO66VyMrkvUqKkv13xAf4X7XiKvx0tcrs71ddTHo"
+    consumerKey = ""
+    consumerSecretKey = ""
+    accessToken = ""
+    accessTokenSecret = ""
 '''
 The below section is for the customisation of the tweet itself
 '''
