@@ -17,16 +17,16 @@ Your app's permissions MUST have Read + Write or else it will not post!!
 class twitter:
     twitter = True #NOTE: This is either True or False. True means it will post to twitter!
 
-    consumerKey = ""
-    consumerSecretKey = ""
-    accessToken = ""
-    accessTokenSecret = ""
+    consumerKey = "A3ubEPh9ZtyJMDW8Wtf81pkOp"
+    consumerSecretKey = "QtguaSzQ3QDsIQioQDBz7z8dZRHwkG8gZ1JYldjQg0O0oxeLwY"
+    accessToken = "1349298927774748677-FG6kTBcX5skjD5HfJiWUSf7GA64TvW"
+    accessTokenSecret = "SV4cWJO66VyMrkvUqKkv13xAf4X7XiKvx0tcrs71ddTHo"
 '''
 The below section is for the customisation of the tweet itself
 '''
 class customisation:
-    heading = "Today's Shop Sections:" #NOTE: This will be the text displayed in the post above the sections
-    footer = "" #NOTE: This is what will appear under the sections! Leave blank("") if you do not want a footer
+    heading = "#Fortnite Today's Shop Sections:🛒" #NOTE: This will be the text displayed in the post above the sections
+    footer = "#FortniteWILDS #FortniteNews #FortniteItemShop" #NOTE: This is what will appear under the sections! Leave blank("") if you do not want a footer
     language = "en" #NOTE: This is the language that the sections are displayed in choose from ar / de / en / es / es-419 / fr / it / ja / ko / pl / pt-BR / ru / tr
     point = "- " #NOTE: This is the thing that will appear before the section name, For example, it would currently look like - Marvel (X7), you can change the "-" before the section name if you wish.
 
